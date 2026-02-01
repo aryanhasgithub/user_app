@@ -8,15 +8,18 @@
     "icon": "./assets/img/logo_dark.png",
     "userInterfaceStyle": "dark",
     "newArchEnabled": true,
+
     "splash": {
       "image": "./assets/img/logo_dark.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.arysharp.user"
     },
+
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/img/logo_dark.png",
@@ -25,12 +28,23 @@
       "edgeToEdgeEnabled": true,
       "package": "com.arysharp.user"
     },
+
     "web": {
       "favicon": "./assets/img/logo_dark.png"
     },
+
     "plugins": [
-      "expo-router"
+      "expo-router",
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "ndkVersion": "25.2.9519653"
+          }
+        }
+      ]
     ],
+
     "extra": {
       "router": {},
       "eas": {
