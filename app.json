@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "user",
+    "scheme": "com.arysharp.user",
+    "slug": "user",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/img/logo_dark.png",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/img/logo_dark.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.arysharp.user"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/img/logo_dark.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.arysharp.user"
+    },
+    "web": {
+      "favicon": "./assets/img/logo_dark.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "28bf7f37-7332-4ea1-8a24-cfbc5633a570"
+      }
+    }
+  }
+}
